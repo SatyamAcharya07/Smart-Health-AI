@@ -1,0 +1,29 @@
+# Python
+**/__pycache__/
+*.pyc
+
+# Virtual environments
+env/
+venv/
+**/env/
+**/venv/
+
+# Node
+**/node_modules/
+**/dist/
+
+# Environment files
+**/.env
+
+# Firebase credentials
+**/firebase_key.json
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore ML models
+ml/
