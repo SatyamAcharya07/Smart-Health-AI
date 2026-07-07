@@ -23,7 +23,7 @@ app.add_middleware(
     ],
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"],
+    allow_headers=["*"],  # Vercel CORS
 )
 
 app.include_router(health_centers.router)
